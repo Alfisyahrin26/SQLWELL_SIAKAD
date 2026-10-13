@@ -1,0 +1,46 @@
+{
+    "tables": [
+        {
+            "name": "fakultas",
+            "schema": "public",
+            "note": null,
+            "columns": [
+                {
+                    "name": "kode_fakultas",
+                    "type": {
+                        "name": "varchar(10)",
+                        "schemaName": null,
+                        "args": "10",
+                        "original": null
+                    },
+                    "primaryKey": true,
+                    "unique": false,
+                    "notNull": false,
+                    "autoIncrement": false,
+                    "note": null,
+                    "defaultValue": null
+                },
+                {
+                    "name": "nama_fakultas",
+                    "type": {
+                        "name": "varchar(100)",
+                        "schemaName": null,
+                        "args": "100",
+                        "original": null
+                    },
+                    "primaryKey": false,
+                    "unique": false,
+                    "notNull": true,
+                    "autoIncrement": false,
+                    "note": null,
+                    "defaultValue": null
+                }
+            ],
+            "indexes": []
+        }
+    ],
+    "enums": [],
+    "refs": [],
+    "version": 1,
+    "generated_at": "2026-10-13T08:20:53+00:00"
+}

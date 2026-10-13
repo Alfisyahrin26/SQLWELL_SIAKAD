@@ -1,0 +1,10 @@
+Project "siakad_db" {
+  database_type: 'MySQL'
+  Note: 'Sistem Informasi Akademik Universitas'
+}
+
+Table "fakultas" {
+  "kode_fakultas" varchar(10) [pk]
+  "nama_fakultas" varchar(100) [not null]
+}
+
