@@ -7,4 +7,3 @@ Table "fakultas" {
   "kode_fakultas" varchar(10) [pk]
   "nama_fakultas" varchar(100) [not null]
 }
-
